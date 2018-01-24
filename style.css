@@ -7,6 +7,7 @@
 
 h1, .tagline {
   text-align: center;
+  padding-top: 20px;
 }
 
 body {
@@ -16,5 +17,33 @@ body {
 
 img {
   height: 37px;
-  width: 39px;
+  width: 39px auto;
+}
+
+h2 {
+  border-top: 20px solid #f9f7f5;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+section {
+  padding-left: 30px;
+}
+span {
+  font-size: 10px;
+}
+
+a {
+  color: purple;
+}
+
+a:hover {
+  color: orange;
+}
+
+div {
+width: 75%;
+height: 75%;
+min-width: 50px;
+min-height: 50px;
 }
