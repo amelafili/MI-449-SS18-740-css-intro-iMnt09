@@ -2,33 +2,47 @@
 .container {
   margin: 0 auto;
   max-width: 500px;
-  background-color: white;
+  background-color: #f9f7f5;
 }
-
+ header {
+   background-color: white;
+   margin-top: 7px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+ }
 h1, .tagline {
   text-align: center;
-  padding-top: 20px;
 }
 
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   background-color: #f9f7f5;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 img {
-  height: 37px;
-  width: 39px auto;
+  height: 50px;
+  max-width: 50px;
+  margin-right: 5px;
 }
 
 h2 {
-  border-top: 20px solid #f9f7f5;
+  background-color: white;
+  margin-top: 40px;
   font-size: 20px;
   padding-top: 20px;
-  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid orange;
 }
+
 section {
-  padding-left: 30px;
+  background-color: white;
+  padding-left: 20px;
+  padding-bottom: 50px;
 }
+
+
 span {
   font-size: 10px;
 }
